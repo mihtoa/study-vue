@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Meu primeiro aplicativo Vue</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    <p>{{ nome }}: R${{ preco }} com {{ desconto * 100 / preco }}% de desconto = R${{ preco - desconto }}</p>
+    <p>{{ 2 + 2 }}</p>
+    <p>{{ horaCerta() }}</p>
+    <p>{{ precoComDesconto }}</p>
+  </div>
+  <script src="vue.js"></script>
+</body>
+</html>
